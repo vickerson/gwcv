@@ -162,7 +162,7 @@ if __name__ == '__main__':
 
     # Otherwise, we set up a timeline object for the background noise, that
     # is, we read in all HDF files in the raw_data_directory and figure out
-    # which parts of it are useable (i.e., have the right data quality and
+    # which parts of it are usable (i.e., have the right data quality and
     # injection bits set as specified in the config file).
     else:
 
