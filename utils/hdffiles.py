@@ -178,7 +178,7 @@ class NoiseTimeline:
     `background_data_directory`. This is information is read in only
     once at the beginning of the sample generation and can then be
     utilized to quickly sample "valid" noise times, that is, GPS times
-    where the files in `background_data_directory` provide data which
+    when the files in `background_data_directory` provide data which
     pass certain desired quality criteria.
     
     Args:
@@ -187,7 +187,7 @@ class NoiseTimeline:
             distributed over several subdirectories.
         random_seed (int): Seed for the random number generator which
             is used for sampling valid noise times.
-        verbose (bool): Whether or not this instance should print
+        verbose (bool): Whether this instance should print
             logging information to the command line.
     """
 
